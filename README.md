@@ -1,4 +1,4 @@
-# SkillSync AI: AI-Powered Workplace Productivity Assistant
+# TrainDeskAI: AI-Powered Workplace Productivity Assistant
 
 Built for the CAPACITI AI Skill Accelerator Programme.
 
@@ -7,7 +7,7 @@ Built for the CAPACITI AI Skill Accelerator Programme.
 
 Administrators at training and skills development providers manage many projects at once. They write repetitive emails, work through meeting notes and contracts, and keep track of deadlines and follow-ups. This takes time, and missed deadlines are costly.
 
-TrainDesk AI is a single dashboard that brings three AI-powered tools together to automate these tasks. All AI outputs are editable and carry a responsible-AI disclaimer, and a human always reviews the result before acting on it.
+TrainDeskAI is a single dashboard that brings three AI-powered tools together to automate these tasks. All AI outputs are editable and carry a responsible-AI disclaimer, and a human always reviews the result before acting on it.
 
 ## Features Implemented
 

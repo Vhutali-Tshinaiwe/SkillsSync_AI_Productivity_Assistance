@@ -5,10 +5,10 @@ import { PageHeader } from "@/components/AppShell";
 export const Route = createFileRoute("/responsible-ai")({
   head: () => ({
     meta: [
-      { title: "Responsible AI — SkilssDesk AI" },
-      { name: "description", content: "How to use SkilssDesk AI responsibly: limitations, bias, POPIA privacy and human review." },
-      { property: "og:title", content: "Responsible AI — SkilssDesk AI" },
-      { property: "og:description", content: "How to use SkilssDesk AI responsibly: limitations, bias, POPIA privacy and human review." },
+      { title: "Responsible AI — TrainDeskAI" },
+      { name: "description", content: "How to use TrainDeskAI responsibly: limitations, bias, POPIA privacy and human review." },
+      { property: "og:title", content: "Responsible AI — TrainDeskAI" },
+      { property: "og:description", content: "How to use TrainDeskAI responsibly: limitations, bias, POPIA privacy and human review." },
     ],
   }),
   component: Page,
@@ -32,7 +32,7 @@ const STEPS = [
 function Page() {
   return (
     <div>
-      <PageHeader eyebrow="Guidance" title="Responsible AI" desc="SkilssDesk AI is an assistant, not a decision-maker. Here's how to use it safely." />
+      <PageHeader eyebrow="Guidance" title="Responsible AI" desc="TrainDeskAI is an assistant, not a decision-maker. Here's how to use it safely." />
       <div className="grid gap-5 sm:grid-cols-2">
         {SECTIONS.map(({ icon: Icon, title, body }) => (
           <div key={title} className="panel p-6">

@@ -4,9 +4,9 @@ import { Mail, FileText, CalendarClock, ArrowRight } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SkilssDesk AI — Workplace Productivity Assistant" },
+      { title: "TrainDeskAI — Workplace Productivity Assistant" },
       { name: "description", content: "AI email drafting, meeting summaries and task planning for training-provider administrators." },
-      { property: "og:title", content: "SkilssDesk AI — Workplace Productivity Assistant" },
+      { property: "og:title", content: "TrainDeskAI — Workplace Productivity Assistant" },
       { property: "og:description", content: "AI email drafting, meeting summaries and task planning for training-provider administrators." },
     ],
   }),
@@ -28,7 +28,7 @@ function Index() {
           Projects, contracts, deadlines — handled.
         </h1>
         <p className="mt-4 max-w-xl text-primary-foreground/80">
-          SkilssDesk AI helps you write follow-ups, summarise meetings and plan your week, so you can spend
+          TrainDeskAI helps you write follow-ups, summarise meetings and plan your week, so you can spend
           less time on admin and more time on learners.
         </p>
       </section>

@@ -10,9 +10,9 @@ export const Route = createFileRoute("/email")({
   validateSearch: z.object({ context: z.string().optional() }),
   head: () => ({
     meta: [
-      { title: "Smart Email Generator — SkilssDesk AI" },
+      { title: "Smart Email Generator — TrainDeskAI" },
       { name: "description", content: "Generate professional emails for clients, learners, managers and SETA contacts." },
-      { property: "og:title", content: "Smart Email Generator — SkilssDesk AI" },
+      { property: "og:title", content: "Smart Email Generator — TrainDeskAI" },
       { property: "og:description", content: "Generate professional emails for clients, learners, managers and SETA contacts." },
     ],
   }),

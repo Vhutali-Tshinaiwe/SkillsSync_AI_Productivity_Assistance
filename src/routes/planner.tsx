@@ -8,9 +8,9 @@ import { runAI } from "@/lib/ai-client";
 export const Route = createFileRoute("/planner")({
   head: () => ({
     meta: [
-      { title: "AI Task Planner — SkilssDesk AI" },
+      { title: "AI Task Planner — TrainDeskAI" },
       { name: "description", content: "Plan your day or week with Eisenhower-matrix prioritisation and at-risk flags." },
-      { property: "og:title", content: "AI Task Planner — SkilssDesk AI" },
+      { property: "og:title", content: "AI Task Planner — TrainDeskAI" },
       { property: "og:description", content: "Plan your day or week with Eisenhower-matrix prioritisation and at-risk flags." },
     ],
   }),
