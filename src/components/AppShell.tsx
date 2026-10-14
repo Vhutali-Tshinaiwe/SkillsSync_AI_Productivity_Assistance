@@ -34,7 +34,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         <Sparkles className="h-5 w-5" />
       </div>
       <div className="leading-tight">
-        <div className="font-display text-lg font-bold text-sidebar-foreground">SkilssDesk AI</div>
+        <div className="font-display text-lg font-bold text-sidebar-foreground">TrainDeskAI</div>
         <div className="text-[11px] text-sidebar-foreground/60">Workplace Assistant</div>
       </div>
     </div>

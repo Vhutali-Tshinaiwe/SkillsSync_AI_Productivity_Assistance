@@ -8,9 +8,9 @@ import { runAI } from "@/lib/ai-client";
 export const Route = createFileRoute("/meetings")({
   head: () => ({
     meta: [
-      { title: "Meeting Notes Summarizer — SkilssDesk AI" },
+      { title: "Meeting Notes Summarizer — TrainDeskAI" },
       { name: "description", content: "Summarise meeting notes into decisions, action items and deadlines." },
-      { property: "og:title", content: "Meeting Notes Summarizer — SkilssDesk AI" },
+      { property: "og:title", content: "Meeting Notes Summarizer — TrainDeskAI" },
       { property: "og:description", content: "Summarise meeting notes into decisions, action items and deadlines." },
     ],
   }),
